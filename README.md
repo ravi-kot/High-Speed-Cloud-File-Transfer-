@@ -1,7 +1,7 @@
 # High-Speed Cloud File Transfer Protocol
 
 ## Overview
-This project implements a custom high-throughput file transfer protocol designed to outperform standard TCP in challenging network conditions. The protocol uses UDP for bulk data transfer and TCP for reliable control signaling. It integrates multithreaded I/O, bitmap-based retransmission, and caching to achieve high speed with guaranteed reliability.
+We created a project that implements a custom high-throughput file transfer protocol designed to outperform standard TCP in challenging network conditions. The protocol uses UDP for bulk data transfer and TCP for reliable control signaling. It integrates multithreaded I/O, bitmap-based retransmission, and caching to achieve high speed with guaranteed reliability.
 
 ## Features
 - Hybrid design:
